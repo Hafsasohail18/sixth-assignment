@@ -89,9 +89,6 @@ document.write(" Index of l is : " + index);*/
  // TASK 14
 /*var str = ("cake","apple pie","cookie", "chips", "patties");
  str.toUpperCase();
- str.toLowerCase();
- str.toLocaleLowerCase();
- str.toLocaleUpperCase();
 var user = prompt(" Welcome to Hafsa's Bakery. What do you want to order? ");
 if(user === str){
     alert(" It is available");
@@ -365,6 +362,13 @@ calculator();*/
 
 
 // TASK 6
+/*function Factorial(n) { 
+    var ans=1; 
+      for (var i = 2; i <= n; i++) 
+        ans = ans * i; 
+    return ans; 
+}
+  alert( Factorial(5) );*/
 
 // TASK 7
 /*var input1=prompt(" Enter start number: ");
@@ -391,6 +395,18 @@ calculatebase();
 calculatehypo();*/
 
 // TASK 9
+/*function RectangleArea(width,height){
+var area=width*height;
+return area;
+}
+document.write(RectangleArea(20,40));*/
+
+/*function RectangleArea(){
+    var area= 20*40;
+    return area;
+}
+document.write(RectangleArea());*/
+
 
 // TASK 10
 /*var string=prompt(" Enter any word: ");*/
